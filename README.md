@@ -16,7 +16,11 @@ This repository currently focuses on:
 - patient education materials
 - simple starter scripts
 - documentation for future development
-
+## How to use
+- review the starter templates in `templates/`
+- adapt the rehab log CSV for your own use case
+- run the Python summary script in `scripts/summary.py`
+- review the roadmap in `docs/project-roadmap.md`
 ## Planned roadmap
 - [ ] Add daily rehab log template
 - [ ] Add patient education handout
