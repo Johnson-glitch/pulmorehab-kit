@@ -21,6 +21,8 @@ This repository currently focuses on:
 - adapt the rehab log CSV for your own use case
 - run the Python summary script in `scripts/summary.py`
 - review the roadmap in `docs/project-roadmap.md`
+## Project status
+This project is in an early-stage maintenance and iteration phase. Recent updates include a basic usage guide, a starter field-definition document for the rehab log, and small improvements to the summary script.
 ## Planned roadmap
 - [ ] Add daily rehab log template
 - [ ] Add patient education handout
