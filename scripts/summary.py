@@ -1,6 +1,7 @@
 import csv
 from statistics import mean
 
+
 def read_rehab_log(file_path):
     rows = []
     with open(file_path, "r", encoding="utf-8") as f:
@@ -9,15 +10,17 @@ def read_rehab_log(file_path):
             rows.append(row)
     return rows
 
+
 def safe_float(value):
     try:
         return float(value)
     except (TypeError, ValueError):
         return None
 
+
 def summarize(rows):
     if not rows:
-        print("No data found.")
+        print("No data found in the rehab log.")
         return
 
     breathing_sessions = []
@@ -52,6 +55,9 @@ def summarize(rows):
         print(f"Average dyspnea score: {mean(dyspnea_scores):.2f}")
     if fatigue_scores:
         print(f"Average fatigue score: {mean(fatigue_scores):.2f}")
+
+    print("\nStarter script completed successfully.")
+
 
 if __name__ == "__main__":
     file_path = "templates/rehab-daily-log.csv"
